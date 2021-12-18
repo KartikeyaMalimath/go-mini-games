@@ -86,10 +86,6 @@ func Positions(in int) (int, int) {
 	return ret1, ret2
 }
 
-func Gameover() {
-	fmt.Println("===Game Ended===")
-}
-
 func TicTacToe() {
 	Player1 = Matrix{"X"}
 	Player2 = Matrix{"O"}
@@ -141,5 +137,4 @@ func TicTacToe() {
 			}
 		}
 	}
-	Gameover()
 }
